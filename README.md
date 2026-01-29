@@ -6,7 +6,7 @@ A beginner-friendly, resume-worthy demo project implementing a product search an
 
 
 
-## Key features (resume bullets)
+## Key features
 
 - **FastAPI backend** with clean RESTful endpoints for product CRUD, search, analytics (views/clicks) and recommendations 
 - **Search** supporting text queries and filters (category, price range, rating) with **case-insensitive** category matching 
