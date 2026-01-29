@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Mini Product Search — Demo</title>
+  <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Product Search & Recommendation — Demo</h1>
+
+    <section class="search">
+      <h2>Search</h2>
+      <div class="row">
+        <input id="q" placeholder="Keyword (e.g. Mouse)" />
+        <input id="category" placeholder="Category (Electronics)" />
+        <input id="min_price" placeholder="Min price" type="number" />
+        <input id="max_price" placeholder="Max price" type="number" />
+        <select id="sort_by">
+          <option value="">Sort</option>
+          <option value="price">Price</option>
+          <option value="rating">Rating</option>
+        </select>
+        <select id="sort_order">
+          <option value="asc">Asc</option>
+          <option value="desc">Desc</option>
+        </select>
+        <button id="searchBtn" type="button">Search</button>
+        <button id="popularBtn" type="button">Popular</button>
+      </div>
+    </section>
+
+    <section>
+      <h2>Results</h2>
+      <div id="results"></div>
+    </section>
+
+    <section>
+      <h2>Recommendations</h2>
+      <div id="recommendations"></div>
+    </section>
+
+    <footer>
+      <small>Backend must run at <code>http://127.0.0.1:8000</code></small>
+    </footer>
+  </div>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>
