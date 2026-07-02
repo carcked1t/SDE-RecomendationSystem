@@ -2,7 +2,7 @@
 
 **Short description**
 
-A beginner-friendly, resume-worthy demo project implementing a product search and recommendation backend with a small demo frontend. Built with FastAPI, SQLAlchemy, and Pydantic (v2) — includes search filtering, simple recommendations, caching, and click/view tracking.
+A project implementing a product search and recommendation backend with a small demo frontend. Built with FastAPI, SQLAlchemy, and Pydantic — includes search filtering, simple recommendations, caching, and click/view tracking.
 
 
 
